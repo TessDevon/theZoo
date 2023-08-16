@@ -1,4 +1,4 @@
-import { createHashRouter } from "react-router-dom";
+import { createBrowserRouter } from "react-router-dom";
 import { Home } from "../components/Home";
 import { Animal } from "../components/Animal";
 import { Animals } from "../components/Animals";
@@ -8,7 +8,7 @@ import { Layout } from "../components/Layout";
 // Hantera ev fel med denna sida.        errorElement:<NotFound></NotFound>,
 
 
-export const router = createHashRouter([
+export const router = createBrowserRouter([
     {
         path:"/",
         element:<Layout></Layout>,

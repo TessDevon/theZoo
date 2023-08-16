@@ -1,4 +1,56 @@
+header {
+  width: 100%;
+  height: 200px;
+  background-color: green;
+  display: flex;
+  justify-content: space-between;
+}
 
+h1 {
+  font-family: 'Courier New', Courier, monospace;
+  padding: 10px;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+  margin-left:20px;
+  color:white;
+  font-size: 6rem;
+  display: inline-block;
+}
+
+.headerLink {
+  margin: 10px;
+  padding: 35px;
+  padding-top: 110px;
+  display: inline-block;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 2rem;
+  color:white;
+}
+a:hover {
+  color: rgb(133, 234, 140);
+}
+
+.homeDiv {
+  background-image: url("./assets/animals.jpg");
+  background-color: green;
+  width:100%;
+  height:800px;
+}
+
+.welcomeText {
+  margin:0px;
+  font-size: xx-large;
+  padding:20px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.homeTextDiv {
+  background-color:beige;
+  padding:30px;
+  width:600px;
+  height: 500px;
+  margin-left:60vh;
+}
 
 
 /*

@@ -6,8 +6,10 @@ return (
     <>
         <header>
             <h1>Vårt Zoo</h1>
-            <a href="">Hem</a>
-            <a href="">Djuren</a>
+            <div className="nav">
+                <a className="headerLink" href="">Hem</a>
+                <a className="headerLink" href="">Djuren</a>
+            </div>
         </header>
         <main>
             <Outlet></Outlet>
