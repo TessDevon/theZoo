@@ -4,8 +4,7 @@ import { router } from "./models/Router"
 import './App.css'
 import { IAnimals } from "./models/IAnimals";
 import { showAnimals } from "./services/animalService";
-//import { Animals } from './components/Animals';
-//import { Layout } from './components/Layout';
+
 
 function App() {
 
@@ -33,8 +32,6 @@ function App() {
     console.log(animals);
   };
   
-
-  /*<Animals animals={animals}></Animals>*/
   return (
     <>
       <RouterProvider router= {router}></RouterProvider>
@@ -53,8 +50,7 @@ export default App
  * Koppla länken med djur till sidan och funktionen som hämtar från localstorage - KLAR
  * Skriv djuren på sidan med animals - KLAR
  * Lägg till styling. -KLAR
- * 
- * Flytta över enskillda djur till egen komponent!! - under process
+ * Flytta över enskillda djur till egen komponent!! - KLAR
  * 
  * Fixa olika bakgrund med olika klasser som ska ändras utifrån tid. Matad grön, 3h gul, 4h röd.
  * Gå igenom uppgiften igen
