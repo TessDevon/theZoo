@@ -5,7 +5,7 @@ import axios from "axios";
 const BASEURL = "https://animals.azurewebsites.net/api/animals";
 
 export const showAnimals = async () => {
-    const response = await axios.get<IAnimals>(BASEURL);
+    const response = await axios.get<IAnimals[]>(BASEURL);
 
     return response.data; 
 }
