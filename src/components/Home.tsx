@@ -1,3 +1,6 @@
+//import { Path } from "react-router-dom"
+//import { router } from "../models/Router";
+
 export const Home = () => {
     return (
         <div className="homeDiv">

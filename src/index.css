@@ -26,7 +26,12 @@ h1 {
   font-size: 2rem;
   color:white;
 }
-a:hover {
+
+.Link {
+  color:white
+}
+
+.Link:hover {
   color: rgb(133, 234, 140);
 }
 

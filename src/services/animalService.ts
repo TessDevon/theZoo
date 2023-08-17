@@ -11,7 +11,7 @@ export const showAnimals = async () => {
 }
 
 export const showSelectedAnimal = async (id:number) => {
-    const response = await axios.get<IAnimal>(`${BASEURL}i=´${id}`);
+    const response = await axios.get<IAnimal>(`${BASEURL}i=${id}`);
     
     return response.data;
 }

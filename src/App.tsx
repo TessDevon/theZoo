@@ -1,14 +1,14 @@
-import { useState } from 'react'
+//import { useState } from 'react'
 import { RouterProvider} from "react-router-dom"
 import { router } from "./models/Router"
 import './App.css'
-import { IAnimals } from "./models/IAnimals";
-import { showAnimals } from "./services/animalService";
+//import { IAnimals } from "./models/IAnimals";
+//import { showAnimals } from "./services/animalService";
 
 
 function App() {
   //const [count, setCount] = useState(0)
-
+/*
   const [animals, setAnimals] = useState<IAnimals[]>([])
 
   const showAnimals = async () => {
@@ -19,8 +19,7 @@ function App() {
       return;
     }
     console.log(animals);
-  };
-showAnimals();
+  };*/
   return (
     <>
       <RouterProvider router= {router}></RouterProvider>
