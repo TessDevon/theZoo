@@ -1,8 +1,9 @@
 Plan att fixa till uppgiften till denna vecka:
- * Lägg på ett klickevent på djursidan som triggar och startar ensiltdjurkomponent med idet. - under process
- * Plocka upp datan från databasen med detta id. - under process
- * Printa ut info om djuret och lägg till matknapp. -under process
+
+ * Hämta arrayn i localstorage
+ * Skriv kod för att ändra värdet i ett id gällande mattatum och boolean - under process
  * Lägg på event på knapp och lägg till klickevent som ändrar todays date på det djuret som klickas på. - under process
+ * Lägg krav på knappen att den ska ändra styling/skuggning... disable - under process
 
  * Starta en beräkningstjänst som utgår från todays date. 
  * Spann mellan todaysdate+3 timmar; 
@@ -30,6 +31,9 @@ Plan att fixa till uppgiften till denna vecka:
  * Lägg till styling. Valde att ha djuren i column med ett djur åt gången för att det inte ska upplevas rörigt. -KLAR
  * Flytta över enskillda djur till egen komponent!! - KLAR 
  * Gå igenom uppgiften igen planera upp resten- KLAR
+ * Lägg på ett klickevent på djursidan som triggar och startar ensiltdjurkomponent med idet. - KLAR
+ * Plocka upp datan från databasen med detta id. - KLAR
+ * Printa ut info om djuret och lägg till matknapp. - KLAR
 
 
 
