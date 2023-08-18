@@ -1,5 +1,5 @@
-import {Outlet, Link} from "react-router-dom";
-
+import {Outlet} from "react-router-dom";
+import {Navigation} from "../components/Navigation";
 
 export const Layout = () => {
 
@@ -10,10 +10,7 @@ return (
     <>
         <header>
             <h1>Vårt Zoo</h1>
-            <ul className="nav">
-                <li className="headerLink"><Link className="Link" to="/">Home</Link></li>
-                <li className="headerLink"><Link className="Link" to="/animals">Djuren</Link></li>
-            </ul>
+            <Navigation></Navigation>
         </header>
         <main>
             <Outlet></Outlet>
