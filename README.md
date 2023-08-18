@@ -1,8 +1,8 @@
 Plan att fixa till uppgiften till denna vecka:
- * Lägg på ett klickevent på djursidan som triggar och startar ensiltdjurkomponent med idet.
- * Plocka upp datan från databasen med detta id. 
- * Printa ut info om djuret och lägg till matknapp. 
- * Lägg på event på knapp och lägg till klickevent som ändrar todays date på det djuret som klickas på. 
+ * Lägg på ett klickevent på djursidan som triggar och startar ensiltdjurkomponent med idet. - under process
+ * Plocka upp datan från databasen med detta id. - under process
+ * Printa ut info om djuret och lägg till matknapp. -under process
+ * Lägg på event på knapp och lägg till klickevent som ändrar todays date på det djuret som klickas på. - under process
 
  * Starta en beräkningstjänst som utgår från todays date. 
  * Spann mellan todaysdate+3 timmar; 
@@ -14,7 +14,8 @@ Plan att fixa till uppgiften till denna vecka:
  * Spann mer än 4 timmar; 
    * notis med meddelande i "en alert" eller div med display-none där det meddelas att ett djur behöver matas 
    * och stylingen ändras. (bakgrund röd)
- * Trasiga bildlänkar. Länka in en ritad bild med olika djur som visas när bilderna är trasiga. 
+   
+ * Trasiga bildlänkar. Länkar in en ritad bild med olika djur som visas när bilderna är trasiga. 
    Väljder detta sätt då man hade varit i team hade backenden fått "laga" bildlänkarna om det hade varit ett riktigt projekt.
    därför blev valet att inte ersätta bilderna från egna bilder i assets. 
    Tog också bort alt att filtrera bort objekt med trasiga bilder då detta inte hade fungerat på tex en nätbutik.
@@ -26,7 +27,7 @@ Plan att fixa till uppgiften till denna vecka:
  * Spara i Localstorage - KLAR
  * Koppla länken med djur till sidan och funktionen som hämtar från localstorage - KLAR
  * Skriv djuren på sidan med animals - KLAR
- * Lägg till styling. -KLAR
+ * Lägg till styling. Valde att ha djuren i column med ett djur åt gången för att det inte ska upplevas rörigt. -KLAR
  * Flytta över enskillda djur till egen komponent!! - KLAR 
  * Gå igenom uppgiften igen planera upp resten- KLAR
 
