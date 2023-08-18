@@ -1,12 +1,11 @@
-Plan att fixa till uppgiften till denna vecka:
- * Lägg krav på knappen att den ska ändra styling/skuggning... disable - under process
+Plan kvar att fixa till uppgiften totalt:
  * Trasiga bildlänkar. Länkar in en ritad bild med olika djur som visas när bilderna är trasiga. 
    Väljder detta sätt då man hade varit i team hade backenden fått "laga" bildlänkarna om det hade varit ett riktigt projekt.
    därför blev valet att inte ersätta bilderna från egna bilder i assets. 
    Tog också bort alt att filtrera bort objekt med trasiga bilder då detta inte hade fungerat på tex en nätbutik. -under process
 
-
- * Starta en beräkningstjänst som utgår från todays date. 
+ * Starta en beräkningstjänst som utgår från todays date.
+ * Lägg krav på knappen att den ska ändra styling/skuggning... disable
  * Spann mellan todaysdate+3 timmar; 
    * Boolean true och 
    * ändrar stylingen. (bakgrunden blir grön och knappen feidas)   
@@ -18,7 +17,7 @@ Plan att fixa till uppgiften till denna vecka:
    * och stylingen ändras. (bakgrund röd)
    
 
-  
+  Klara mål under första avstämningen:
  * Planera upp uppgiften - KLAR
  * Addera komponenter jag kommer behöva i projektet - KLAR
  * Få rätt på routs och se till att de visas rätt sidor vid ändring i URLen - KLAR
