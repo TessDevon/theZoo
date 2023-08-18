@@ -1,11 +1,10 @@
 import axios from "axios";
 import { IAnimals } from "../models/IAnimals";
-//import { IAnimal } from "../models/IAnimal";
-//import { IOmdbResponse } from "../models/IOmdbResponse";
 
 export interface IAnimalsLoader {
   animals: IAnimals[];
 }
+//Skriver om resultatet för att det ska fungera ihop. Bakas ihop i ett objekt.
 
 export const animalsLoader = async () => {
   const response = await axios.get<IAnimals[]>(

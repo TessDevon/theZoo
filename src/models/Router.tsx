@@ -1,13 +1,15 @@
 import { createBrowserRouter } from "react-router-dom";
 import { Home } from "../components/Home";
-import { Animal } from "../components/Animal";
+import { SelectedAnimal } from "../components/SelectedAnimal"
 import { Animals } from "../components/Animals";
 import { Layout } from "../components/Layout";
+import { animalLoader } from "../loaders/animalLoader";
 
 
-// Hantera ev fel med denna sida.        errorElement:<NotFound></NotFound>,
 
+// Hantera ev fel med denna sida(Layouten).        errorElement:<NotFound></NotFound>,
 
+//hash om den ska lanseras sen.
 export const router = createBrowserRouter([
     {
         path:"/",
@@ -23,8 +25,9 @@ export const router = createBrowserRouter([
             element:<Animals></Animals>
         },
         {
-            path:"/animal/id",
-            element:<Animal></Animal>
+            path:"/animal/:id",
+            element:<SelectedAnimal></SelectedAnimal>,
+            loader:animalLoader,
         }]
     }, 
 ])

@@ -92,6 +92,31 @@ h1 {
   border-radius: 10px;
 }
 
+
+/*-----------------------------------------------------------------------------
+---------------- Animal CSS ---------------------------------------------------
+-----------------------------------------------------------------------------*/
+
+.animalContainer {
+  display:flex;
+  position: relative;
+  flex-direction: column;
+  text-align: center;
+  padding-left: 30%;
+  padding-bottom: 40px;
+  background-color: rgb(2, 98, 2);
+  font-family:'Courier New', Courier, monospace;
+} 
+
+.animalOne {
+  width: 60%;
+  text-align:center;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 30px;
+}
+
 .feedBtn {
   border-radius: 10px;
   font-family: 'Courier New', Courier, monospace;
@@ -104,4 +129,3 @@ h1 {
 .feedBtn:hover {
   background-color: rgb(2, 84, 2);
 }
-
