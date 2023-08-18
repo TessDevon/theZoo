@@ -1,9 +1,10 @@
 Plan att fixa till uppgiften till denna vecka:
-
- * Hämta arrayn i localstorage
- * Skriv kod för att ändra värdet i ett id gällande mattatum och boolean - under process
- * Lägg på event på knapp och lägg till klickevent som ändrar todays date på det djuret som klickas på. - under process
  * Lägg krav på knappen att den ska ändra styling/skuggning... disable - under process
+ * Trasiga bildlänkar. Länkar in en ritad bild med olika djur som visas när bilderna är trasiga. 
+   Väljder detta sätt då man hade varit i team hade backenden fått "laga" bildlänkarna om det hade varit ett riktigt projekt.
+   därför blev valet att inte ersätta bilderna från egna bilder i assets. 
+   Tog också bort alt att filtrera bort objekt med trasiga bilder då detta inte hade fungerat på tex en nätbutik. -under process
+
 
  * Starta en beräkningstjänst som utgår från todays date. 
  * Spann mellan todaysdate+3 timmar; 
@@ -16,10 +17,7 @@ Plan att fixa till uppgiften till denna vecka:
    * notis med meddelande i "en alert" eller div med display-none där det meddelas att ett djur behöver matas 
    * och stylingen ändras. (bakgrund röd)
    
- * Trasiga bildlänkar. Länkar in en ritad bild med olika djur som visas när bilderna är trasiga. 
-   Väljder detta sätt då man hade varit i team hade backenden fått "laga" bildlänkarna om det hade varit ett riktigt projekt.
-   därför blev valet att inte ersätta bilderna från egna bilder i assets. 
-   Tog också bort alt att filtrera bort objekt med trasiga bilder då detta inte hade fungerat på tex en nätbutik.
+
   
  * Planera upp uppgiften - KLAR
  * Addera komponenter jag kommer behöva i projektet - KLAR
@@ -34,7 +32,9 @@ Plan att fixa till uppgiften till denna vecka:
  * Lägg på ett klickevent på djursidan som triggar och startar ensiltdjurkomponent med idet. - KLAR
  * Plocka upp datan från databasen med detta id. - KLAR
  * Printa ut info om djuret och lägg till matknapp. - KLAR
-
+ * Hämta arrayn i localstorage - KLAR
+ * Skriv kod för att ändra värdet i ett id gällande matdatum och boolean - KLAR
+ * Lägg på event på knapp och lägg till klickevent som ändrar todays date på det djuret som   klickas på. - KLAR
 
 
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/mzU6KDhq)
