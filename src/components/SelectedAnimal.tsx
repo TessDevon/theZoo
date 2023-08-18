@@ -1,9 +1,6 @@
 import {useLoaderData} from "react-router-dom";
 import { IAnimalLoader } from "../loaders/animalLoader"
-//import { IAnimals } from "../models/IAnimals";
-import { feedAnimal } from "../services/feedAnimals";
-
-    //Sätta krav på knappen om bolean är true eller false.
+import { feedAnimal } from "./feedAnimals";
 
 export const SelectedAnimal = () => {
     const { animal } = useLoaderData() as IAnimalLoader

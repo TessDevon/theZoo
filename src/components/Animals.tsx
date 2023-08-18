@@ -1,7 +1,4 @@
-//import { IAnimals } from "../models/IAnimals";
 import { Animal } from "../components/Animal";
-//import { IAnimals } from "../models/IAnimals";
-
 
 export const Animals = () => {
 const animalsInLocalstorage = JSON.parse(localStorage.getItem("animals")||'[]');
