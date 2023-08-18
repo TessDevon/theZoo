@@ -41,18 +41,3 @@ function App() {
 
 export default App
 
-/** Plan att fixa till uppgiften till denna vecka:
- * Planera upp uppgiften - KLAR
- * Addera komponenter jag kommer behöva i projektet - KLAR
- * Få rätt på routs och se till att de visas rätt sidor vid ändring i URLen - KLAR
- * Få rätt på hämtning - KLAR
- * Spara i Localstorage - KLAR
- * Koppla länken med djur till sidan och funktionen som hämtar från localstorage - KLAR
- * Skriv djuren på sidan med animals - KLAR
- * Lägg till styling. -KLAR
- * Flytta över enskillda djur till egen komponent!! - KLAR
- * 
- * Fixa olika bakgrund med olika klasser som ska ändras utifrån tid. Matad grön, 3h gul, 4h röd.
- * Gå igenom uppgiften igen
- * Kolla över möjligheten att göra annan sida för enskilt djur - utan routs
- * */

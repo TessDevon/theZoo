@@ -16,7 +16,6 @@ export const Animal = ({animals}: IAnimalsProps) => {
                     <h3>{animal.name}</h3>
                     <img className="animalImage" width="500" height="auto" src={animal.imageUrl}></img>
                     <p>{animal.shortDescription}</p>
-                    <button className="feedBtn">Mata mig!</button>
                 </div>
             ))}
         </>
