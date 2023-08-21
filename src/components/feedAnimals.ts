@@ -14,7 +14,9 @@ export const feedAnimal = (animalId:string) => {
         else {
             return animal;
         }
+       
     })
     localStorage.setItem('animals', JSON.stringify(NewLocalStorageAnimals));
-    console.log(NewLocalStorageAnimals);
+    console.log(NewLocalStorageAnimals); 
+    location.reload();
 }

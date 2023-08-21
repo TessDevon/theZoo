@@ -35,6 +35,7 @@ h1 {
   color: rgb(133, 234, 140);
 }
 
+
 .homeDiv {
   background-image: url("./assets/animals.jpg");
   background-color: green;
@@ -83,6 +84,18 @@ h1 {
   background-color: rgb(249, 174, 174);
 }
 
+.animalFed{
+  background-color: rgb(149, 247, 149);
+}
+
+.animalHungry{
+  background-color: rgb(244, 244, 172);
+}
+
+.animalStarving{
+  background-color: rgb(249, 174, 174);
+}
+
 .helpAnimaltext {
   color: white;
   text-align:left;
@@ -128,4 +141,8 @@ h1 {
 
 .feedBtn:hover {
   background-color: rgb(2, 84, 2);
+}
+
+.feedBtn:disabled {
+  background-color: grey;
 }
