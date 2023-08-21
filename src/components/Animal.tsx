@@ -1,6 +1,6 @@
 import { IAnimals } from "../models/IAnimals";
-import { useNavigate } from "react-router-dom"
-
+import { useNavigate } from "react-router-dom";
+//import {SyntheticEvent} from "react";
     interface IAnimalsProps {
     animals: IAnimals[];
 }
@@ -13,9 +13,6 @@ const handleClick = (id:string) => {
     navigate("/animal/" + id);
 }    
     
-    
-    
-    
     return (
         <>
         <section className="helpAnimaltext">
@@ -25,7 +22,12 @@ const handleClick = (id:string) => {
             {animals.map((animal:IAnimals) => (
                 <div onClick={()=>handleClick(animal.id)} className="animalDivs" key={animal.id}>
                     <h3>{animal.name}</h3>
-                    <img className="animalImage" width="500" height="auto" src={animal.imageUrl}></img>
+                    <img  className="animalImage" 
+                    onError={ e => {
+                        e.currentTarget.onerror = null;
+                        e.currentTarget.src = "/src/assets/staket.jpg";
+                    }} 
+                    width="500" height="auto" src={animal.imageUrl}></img>
                     <p>{animal.shortDescription}</p>
                 </div>
             ))}
