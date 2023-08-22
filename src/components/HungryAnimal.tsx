@@ -13,10 +13,10 @@ export const HungryAnimal = () => {
     })
 
     return (<>
-    <div className={hungryanimalcontainer}>
-        <h2>Djur är hungriga!</h2>
-        <p>Djurvårdare, vi behöver er hjälp för att mata djuren. 
+        <div id = "hungryAnimalDiv" className = {hungryanimalcontainer}>
+            <h2 className="hungryAnimalDivtext">Djur är hungriga!</h2>
+            <p className="hungryAnimalDivtext">Djurvårdare, vi behöver er hjälp för att mata djuren. 
             Något eller några djur behöver mat omgående. </p>
-    </div>
+        </div>
     </>)
 };

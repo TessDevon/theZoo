@@ -8,7 +8,7 @@ export const SelectedAnimal = () => {
     
     const { animal } = useLoaderData() as IAnimalLoader
     
-    //Hämta lastfed i localstorage inte databasen. 
+    //Hämta lastfed i localstorage inte databasen för att kolla av last fed. 
     const animalsInLocalstorage = JSON.parse(localStorage.getItem("animals")||'[]');
     const storageAnimal = animalsInLocalstorage.find((storageAnimal:IAnimals) => {
         if(animal.id === storageAnimal.id) {
@@ -27,7 +27,7 @@ export const SelectedAnimal = () => {
 
     return <div className="animalContainer">
         <div className="animalOne" key={animal.id}>
-            <h3>{animal.name}</h3>
+            <h3 className="animalh3">{animal.name}</h3>
             <img className="animalImage" 
             onError={ e => {
                 e.currentTarget.onerror = null;

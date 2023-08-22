@@ -4,7 +4,6 @@ import { HungryAnimal } from "./HungryAnimal";
 
 export const Layout = () => {
 
-
 return (
     <>
         <header>
@@ -15,7 +14,9 @@ return (
             <HungryAnimal></HungryAnimal>
             <Outlet></Outlet>
         </main>
-        <footer></footer>
+        <footer>
+            <p className="footerText">Built and styled by: TessDevon</p>
+        </footer>
         </>
     );
 };
