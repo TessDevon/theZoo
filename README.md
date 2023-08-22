@@ -1,7 +1,4 @@
 Plan kvar att fixa till uppgiften totalt:
- * styla starvingdiven. - under process  
-
-  Klara mål under första avstämningen:
  * Planera upp uppgiften - KLAR
  * Addera komponenter jag kommer behöva i projektet - KLAR
  * Få rätt på routs och se till att de visas rätt sidor vid ändring i URLen - KLAR
@@ -33,6 +30,7 @@ Plan kvar att fixa till uppgiften totalt:
  * Spann mer än 4 timmar; -KLAR 
    * och stylingen ändras. (bakgrund röd) 
 * notis med meddelande i en div med display-none där det meddelas att ett djur behöver matas skapa funktinalitet - KLAR
+ * styla starvingdiven. - KLAR
 
 
 
