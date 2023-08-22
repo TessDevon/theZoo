@@ -7,18 +7,16 @@ Plan kvar att fixa till uppgiften totalt:
  * Koppla länken med djur till sidan och funktionen som hämtar från localstorage - KLAR
  * Skriv djuren på sidan med animals - KLAR
  * Lägg till styling. Valde att ha djuren i column med ett djur åt gången för att det inte ska upplevas rörigt. -KLAR
- * Flytta över enskillda djur till egen komponent!! - KLAR 
+ * Flytta över enskillda djur till egen komponent - KLAR 
  * Gå igenom uppgiften igen planera upp resten- KLAR
- * Lägg på ett klickevent på djursidan som triggar och startar ensiltdjurkomponent med idet. - KLAR
+ * Lägg på ett klickevent på djursidan som triggar och startar enskild djurkomponent med id:et. - KLAR
  * Plocka upp datan från databasen med detta id. - KLAR
  * Printa ut info om djuret och lägg till matknapp. - KLAR
  * Hämta arrayn i localstorage - KLAR
  * Skriv kod för att ändra värdet i ett id gällande matdatum och boolean - KLAR
- * Lägg på event på knapp och lägg till klickevent som ändrar todays date på det djuret som   klickas på. - KLAR
- * Trasiga bildlänkar. Länkar in en ritad bild med olika djur som visas när bilderna är trasiga. 
-   Väljder detta sätt då man hade varit i team hade backenden fått "laga" bildlänkarna om det hade varit ett riktigt projekt.
-   därför blev valet att inte ersätta bilderna från egna bilder i assets. 
-   Tog också bort alt att filtrera bort objekt med trasiga bilder då detta inte hade fungerat på tex en nätbutik. -KLAR
+ * Lägg på event på knapp och lägg till klickevent som ändrar todays date på det djuret som klickas på. - KLAR
+ * Trasiga bildlänkar. Länkar in en bild med trasigt staket som motsvarar att djuret saknas. 
+   Väljder detta sätt då man hade varit i team hade backenden fått "laga" bildlänkarna om det hade varit ett riktigt projekt. -KLAR
 * Starta en beräkningstjänst som utgår från todays date. - KLAR
  * Lägg krav på knappen att den ska ändra styling/skuggning... disable - KLAR
  * Spann mellan todaysdate+3 timmar; -KLAR
