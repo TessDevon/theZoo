@@ -6,11 +6,9 @@ export interface IAnimalLoader {
   animal: IAnimal;
 }
 
-export const animalLoader = async ({params}:any) => {
-    const response = await axios.get<IAnimal>
-    (`${BASEURL}` + params.id);
+export const animalLoader = async ({ params }: any) => {
+  const response = await axios.get<IAnimal>(`${BASEURL}` + params.id);
 
-    const data: IAnimalLoader = {animal: response.data};
-    return data;
-}
-
+  const data: IAnimalLoader = { animal: response.data };
+  return data;
+};

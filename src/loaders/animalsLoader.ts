@@ -13,5 +13,4 @@ export const animalsLoader = async () => {
 
   const data: IAnimalsLoader = { animals: response.data };
   return data;
-    
 };
