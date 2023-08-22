@@ -12,7 +12,6 @@ export const animalsLoader = async () => {
   );
 
   const data: IAnimalsLoader = { animals: response.data };
-    console.log(data)
   return data;
     
 };

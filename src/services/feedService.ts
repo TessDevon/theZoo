@@ -1,4 +1,3 @@
-//import { IAnimal } from "../models/IAnimal";
 import { IAnimals } from "../models/IAnimals";
 
 export const feedService = (lastFed:string) => {

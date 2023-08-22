@@ -1,9 +1,7 @@
 import { IAnimals } from "../models/IAnimals";
 import { useNavigate } from "react-router-dom";
-//import { useEffect } from "react";
 import { feedService } from "../services/feedService";
-//import {SyntheticEvent} from "react";
-    interface IAnimalsProps {
+interface IAnimalsProps {
     animals: IAnimals[];
 }
 
@@ -20,7 +18,7 @@ const handleClick = (id:string) => {
         <>
         <section className="helpAnimaltext">
             <h2>Hjälp oss mata hungriga djur.</h2>
-            <p>De djur med gul eller röd bakgrund behöver din hjälp med mat.</p>
+            <p className="animalInfoText">De djur med gul eller röd bakgrund behöver din hjälp med mat. Tryck på djuren för att se mer info och för att mata dem.</p>
             </section>
             {animals.map((animal:IAnimals) => (
                 
