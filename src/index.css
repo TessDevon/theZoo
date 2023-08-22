@@ -146,3 +146,11 @@ h1 {
 .feedBtn:disabled {
   background-color: grey;
 }
+
+.starving {
+  display: block;
+}
+
+.notStarving {
+  display: none; 
+}

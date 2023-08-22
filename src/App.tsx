@@ -4,6 +4,7 @@ import { router } from "./models/Router"
 import './App.css'
 import { IAnimals } from "./models/IAnimals";
 import { showAnimals } from "./services/animalService";
+import { HungryAnimal } from './components/HungryAnimal';
 
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
 
   useEffect (() => {
     pickAnimals();
+    HungryAnimal();
   })
   
   const pickAnimals = async () => {
@@ -29,7 +31,6 @@ function App() {
           } 
       }
     } 
-    console.log(animals);
   };
   
   return (
