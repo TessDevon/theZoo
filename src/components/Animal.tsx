@@ -1,11 +1,15 @@
 import { IAnimals } from "../models/IAnimals";
 import { useNavigate } from "react-router-dom";
 import { feedService } from "../services/feedService";
+//import { useState } from "react";
+
 interface IAnimalsProps {
   animals: IAnimals[];
 }
 
 export const Animal = ({ animals }: IAnimalsProps) => {
+
+
   const navigate = useNavigate();
 
   const handleClick = (id: string) => {

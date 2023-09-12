@@ -1,4 +1,5 @@
 import { IAnimals } from "../models/IAnimals";
+import { Animals } from "./Animals";
 
 export const feedAnimal = (animalId: string) => {
   const feedDate = new Date().toISOString();
@@ -14,5 +15,6 @@ export const feedAnimal = (animalId: string) => {
     }
   });
   localStorage.setItem("animals", JSON.stringify(NewLocalStorageAnimals));
-  location.reload();
+  //location.reload();¨
+  Animals(NewLocalStorageAnimals);
 };
