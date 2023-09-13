@@ -1,9 +1,10 @@
-import { useLoaderData } from "react-router-dom";
-import { IAnimalLoader } from "../loaders/animalLoader";
+
 import { feedService } from "../services/feedService";
 import { feedAnimal } from "./feedAnimals";
 import { IAnimals } from "../models/IAnimals";
 import { useState } from "react";
+import { useLoaderData, useParams } from "react-router-dom";
+import { IAnimalLoader } from "../loaders/animalLoader";
 
 export const SelectedAnimal = () => {
   const [animalInState, setAminalInState] = useState<IAnimals>({
@@ -17,7 +18,8 @@ export const SelectedAnimal = () => {
 
   //Ligger med just nu för att få ut Id:et.
   const { animal } = useLoaderData() as IAnimalLoader;
-  
+  //const { id } = useParams();
+  //console.log(id);
   //Använder Localstorage som datakälla.
   const animalsInLocalstorage = JSON.parse(
     localStorage.getItem("animals") || "[]"
